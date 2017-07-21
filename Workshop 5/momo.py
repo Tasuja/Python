@@ -1,0 +1,8 @@
+amount=float(input("Enter your amount: "))
+momo=int(amount/100)
+next=float(amount%100)
+print("Price of momo per plate: Rs.100")
+print("You can afford %d plates of momo with Rs.%.2f"%(momo,amount))
+print("You have Rs.%.2f left"%next)
+required=float(100-next)
+print("You need Rs.%.2f to afford another plate"%required)

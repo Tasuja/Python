@@ -1,0 +1,6 @@
+name=input("Please enter your name: ")
+age=input("Please enter your age: ")
+sex=input("Please enter your sex: ")
+address=input("Please enter your address: ")
+#print("Hello {} \n".format(name),"\bYou are {} years old\n".format(age),"\bYou are a {}\n".format(sex),"\bYour address is {}\n".format(address))
+print("Hello %s\n"%name,"\bYou are %s years old\n"%age,"\bYou are a %s\n"%sex,"\bYour address is %s\n"%address)
